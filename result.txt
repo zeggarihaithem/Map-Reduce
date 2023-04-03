@@ -1,0 +1,72 @@
+
+####### test 0 #######
+
+Nombre de coeurs initiaux: 4
+
+####### test 2 #######
+
+****Coeurs disponibles****
+id : 0 |  degradation  0
+id : 1 |  degradation  0
+id : 2 |  degradation  0
+id : 3 |  degradation  0
+
+####### test 3 #######
+
+----Core----
+id 0, degradation 0
+
+
+####### test 4 #######
+----Core----
+id 0, degradation 2
+values : [ 100 60 ]
+-------
+
+
+####### test 5 #######
+
+Resultat mapReduce : 160
+
+
+####### test 6 #######
+****Coeurs disponibles****
+id : 0 |  degradation  2
+id : 1 |  degradation  1
+id : 2 |  degradation  1
+id : 3 |  degradation  1
+
+Nombre de coeurs instanciés: 4
+---------------------------------------------------------
+---------------------------------------------------------
+
+####### test 8 #######
+
+****Coeurs disponibles****
+id : 0 |  degradation  0
+id : 1 |  degradation  0
+id : 2 |  degradation  0
+id : 3 |  degradation  0
+
+####### tests  9 #######
+----Core----
+id 1, degradation 1
+values : [ group1 group2 group3 poo programmation ]
+-------
+
+****Coeurs disponibles****
+id : 0 |  degradation  1
+id : 1 |  degradation  1
+id : 2 |  degradation  0
+id : 3 |  degradation  0
+
+####### tests  9 #######
+
+Resultat mapReduce : 5
+****Coeurs disponibles****
+id : 0 |  degradation  1
+id : 1 |  degradation  1
+id : 2 |  degradation  1
+id : 3 |  degradation  1
+
+Nombre de coeurs instanciés:  4
